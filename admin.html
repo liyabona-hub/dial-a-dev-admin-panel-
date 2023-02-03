@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dial-a-dev</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" type="image/x-icon" href="/1200px-Close_tag_icon.svg.png">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class='bx bx-code-alt'></i>
+      <div class="logo_name">
+        Dial-a-dev
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="/dashboard.html" class="active">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">
+            Dashboard
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="Profile.html">
+          <i class='bx bx-user'></i>
+          <span class="links_name">
+            Profile
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="sales.html">
+          <i class='bx bxs-truck'></i>
+          <span class="links_name">
+            Sales
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="earnings.html">
+          <i class='bx bx-rand' ></i>
+          <span class="links_name">
+            Earnings
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="visitors.html">
+          <i class='bx bxs-user-plus'></i>
+          <span class="links_name">
+            Visitors
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="orders.html">
+          <i class='bx bx-cart-alt'></i>
+          <span class="links_name">
+            Orders
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="saved.html">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">
+            Saved
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="settings.html">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">
+            Settings
+          </span>
+        </a>
+      </li>
+      <li class="login">
+        <a href="/Responsive-Login-Form-master/index.html">
+          <span class="links_name login_out">
+            Log Out
+          </span>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+ 
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="search_wrapper">
+        <label>
+          <span>
+            <i class='bx bx-search'></i>
+          </span>
+          <input type="search" placeholder="Search...">
+        </label>
+      </div>
+      <div class="user_wrapper">
+        <img src="img/liya.jpeg" alt="">
+      </div>
+    </div>
+   
+    <div class="card-boxes">
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">6</div>
+          <div class="box_topic">Total Orders</div>
+        </div>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">23</div>
+          <div class="box_topic">Total Sales</div>
+        </div>
+        <i class='bx bxs-cart-add'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">30</div>
+          <div class="box_topic">Total Projects</div>
+        </div>
+        <i class='bx bx-cart'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">50</div>
+          <div class="box_topic">Total Returns</div>
+        </div>
+        <i class='bx bxs-cart-download'></i>
+      </div>
+    </div>
+   
+    <div class="details">
+      <div class="recent_project">
+        <div class="card_header">
+          <h2>Latest Projects</h2>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>Projects</td>
+              <td>Hours</td>
+              <td>Priority</td>
+              <td>Members</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Voting app</td>
+              <td>34</td>
+              <td>
+                <span class="badge bg_worning">
+                  Meduim
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/Tawanda.jpeg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Content Management System UI Design</td>
+              <td>47</td>
+              <td>
+                <span class="badge bg_danger">
+                  High
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+2</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Leave system</td>
+              <td>120</td>
+              <td>
+                <span class="badge bg_info">
+                  Low
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Sign in and Sign out system</td>
+              <td>89</td>
+              <td>
+                <span class="badge bg_worning">
+                  Meduim
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+2</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Web app Design System</td>
+              <td>108</td>
+              <td>
+                <span class="badge bg_seccuss">
+                  Low
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+3</span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Password Manager</td>
+              <td>120</td>
+              <td>
+                <span class="badge bg_info">
+                  Low
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="img/avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="img/avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="recent_customers">
+        <div class="card_header">
+          <h2>New Customers</h2>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/rico.jpeg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Heinrico Harendse</h4>
+                <span>heinrico.harendse@younglings.africa</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/cam.jpeg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Cameron Davids</h4>
+                <span>cameron.davids@younlings.africa</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/mo.jpeg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Mogamat Crowe</h4>
+                <span>Mogamat.crowe@younglings.africa</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/ayakha.jpeg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Ayakha Mzimkhulu</h4>
+                <span>ayakha.mzimkhulu@younglings.africa</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/josh.jpeg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>joshua Schell</h4>
+                <span>Joshua.schella@younglings.africa</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="img/avatar-5.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Zaakhirah Abrams</h4>
+                <span>Zaakhira.abrams@younglings.africa</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      // call function
+      changeBtn();
+    });
+
+    function changeBtn() {
+      if(sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      }
+    }
+  </script>
+</body>
+</html>
